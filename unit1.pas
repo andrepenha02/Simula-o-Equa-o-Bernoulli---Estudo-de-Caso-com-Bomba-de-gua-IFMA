@@ -115,7 +115,7 @@ begin
   label14.caption:= edit9.text+' m^3/s = Vb*[pi*('+ floattostr((strtofloat(edit1.text)/1000)/2) +'m)^2]';
 
   label15.visible:= true;
-  label15.Caption:= 'Va = '+floattostr(roundto(Vb,-2))+' m/s';
+  label15.Caption:= 'Vb = '+floattostr(roundto(Vb,-2))+' m/s';
 
 
   label16.visible:= true;
